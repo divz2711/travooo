@@ -1,0 +1,96 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Pacifico&family=Roboto:wght@300;500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #bab2b2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label, form input, form button {
+    font-size: 16px;
+}
+
+form input, form button {
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 520;
+}
+
+.recommendation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.recommendation h1, .recommendation p {
+    width: 100%;
+    text-align: center;
+}
